@@ -1,0 +1,18 @@
+手机取件 · 快速开始
+
+1. 装 Python 3.9+（python.org；Windows 勾选 Add Python to PATH）。
+2. 解压到一个可写目录，进入里面的 mobile-pickup/ 文件夹。
+3. Windows 双击 scripts\start_windows.bat；macOS 先 chmod +x scripts/start_macos.command 再双击；Linux 运行 ./scripts/start_linux.sh。
+4. 第一次会自动装依赖、生成证书，并弹出文件夹选择框。选你要送到手机的文件夹（想先试就选“assets/示例”）。
+5. 电脑浏览器会打开取件页，手机扫页面顶部的二维码。
+6. 手机提示“证书不安全”时点“继续访问”。然后复制标题、复制正文、批量保存图片。
+
+手机第一次用，点页面底部的“这台手机复制/保存测试”，按结果走：
+- 能一键复制：直接点按钮。
+- 不能：长按文字 → 全选 → 复制。
+- 能系统分享：保存走系统面板。
+- 不能：点“下载全部”，图片进“下载/文件”。
+
+前提：手机和电脑连同一个 Wi-Fi。手机打不开时，Windows 右键管理员运行 scripts/firewall_windows.bat。
+
+更多说明看 README.md；给 AI 助手看 SKILL.md。

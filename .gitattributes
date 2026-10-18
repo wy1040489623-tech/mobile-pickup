@@ -1,0 +1,10 @@
+*.bat text eol=crlf
+*.vbs text eol=crlf
+*.command text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.png binary

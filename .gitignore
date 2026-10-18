@@ -1,0 +1,10 @@
+.venv/
+certs/
+__pycache__/
+*.pyc
+pickup.log
+pickup.pid
+config.local.json
+dist/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+interface:
+  display_name: "手机取件"
+  short_description: "把电脑上的文案和图片送到手机，扫码即可复制和存图"
+  default_prompt: "Use $mobile-pickup to send this folder's text and images to my phone."
+policy:
+  allow_implicit_invocation: true
