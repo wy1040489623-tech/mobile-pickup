@@ -8,7 +8,7 @@
 
 ## 下载
 
-- **Release zip（推荐给不熟 GitHub 的人）**：打开 [Releases](https://github.com/wy1040489623-tech/mobile-pickup/releases/latest)，下载 `mobile-pickup-v1.0.0.zip`，解压出 `mobile-pickup/`。
+- **Release zip（推荐给不熟 GitHub 的人）**：打开 [Releases](https://github.com/wy1040489623-tech/mobile-pickup/releases/latest)，下载 `mobile-pickup-v1.0.1.zip`，解压出 `mobile-pickup/`。
 - **克隆仓库**：`git clone https://github.com/wy1040489623-tech/mobile-pickup.git`
 
 ---

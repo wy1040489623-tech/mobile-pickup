@@ -262,11 +262,12 @@ def render_note(note: dict, token: str, batch_key: str, test_url: str) -> str:
 
   @@SAVE_SECTION@@
 
+  <button id="publishBtn" class="publish" onclick="togglePublished()">标记为已发布</button>
+  <div id="publishHint" class="publish-hint"></div>
+
   <p class="tip">下面是预览；点图可放大，长按也能单张保存。</p>
   @@IMAGES@@
 
-  <button id="publishBtn" class="publish" onclick="togglePublished()">标记为已发布</button>
-  <div id="publishHint" class="publish-hint"></div>
   <a id="backBottom" class="back-bottom" href="/@@TOKEN@@/">← 返回列表，发下一篇</a>
   <a class="test-link" href="@@TEST@@">复制/保存测试</a>
 </div>
